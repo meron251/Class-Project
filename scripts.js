@@ -1,17 +1,17 @@
 
-/*var name = "Meh"
+var name = "Meh"
 alert("DONT CLICK " + name);
 
 alert("You clicked-.__- "+ name);*/
 
-/*var dog= "Beagle";
+var dog= "Beagle";
 alert("Hello "+ dog);*/
 
-/*function showAlert() {
+function showAlert() {
 
   alert("WOOF 🐶");
 
-}*/
+}
 
 showAlert();
 var button = document.querySelector("button");
