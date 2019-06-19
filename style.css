@@ -17,11 +17,15 @@ h1:hover {
 }
 
 .page-header {
-  text-align: center;
+  text-align: left;
   font-style: 4rem;
   padding: 10px;
   margin: 10px;
 }
+.header-links {
+    text-align: center;
+}
+
 body:hover {
   color: green;
   transition:0.4s;
@@ -29,12 +33,21 @@ body:hover {
 body {
   color: red;
   font-family: 'Quicksand', sans-serif;
-  background-size: "cover"
+  background-size: "cover";
+  text-align: center;
 
 }
 img {
   width: 50%;
   height: auto;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 div {
    width: 50%;
@@ -92,4 +105,32 @@ div {
 .w6:hover {
   color:white;
   transition: 0.4s;
+}
+.w6 {
+  padding-left: 50px;
+}
+.pic:hover {
+text-align: center;
+transition: 0.4s;
+width:40px;
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
